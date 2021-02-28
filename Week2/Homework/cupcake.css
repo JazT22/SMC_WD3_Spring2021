@@ -1,0 +1,20 @@
+body{
+	background-color: #00303f;
+}
+
+.bg-danger{
+	background-color:  #f5f4f4 !important;
+}
+
+.bg-warning{
+	background-color:  #cae4db !important;
+}
+
+.bg-light{
+	background-color:  #cdac81 !important;
+}
+
+.container{
+	padding: 2em;
+}
+
