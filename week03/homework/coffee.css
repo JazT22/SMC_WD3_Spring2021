@@ -1,74 +1,97 @@
-body{
-	background-color: pink;
-     padding-bottom: 65px; 
-    font-family: 'Raleway', sans-serif;
-font-family: 'Raleway', sans-serif;
+body {
+	background-color: #fde8cd;
+	padding-bottom:  20px;
+	font-family: 'Raleway', sans-serif;
+
+	color: #433520;
 }
 
-.col-sm h1,h2 {
-  
-    font-family: 'Sedgwick Ave', cursive;
-}
-.col-sm{
-    text-align: center;
-    padding: 1em;
-    font-size: .9em;
+/* Navbar */
+.bg-dark {
+	background-color: #433520 !important;
 }
 
-.carousel-inner{
-    height: 30em;
+.navbar-nav > li > .dropdown-menu {
+	background-color: #fde8cd;
 }
 
-.carousel-caption{
-    height: 20em;
+.navbar-brand{
+	font-family: 'Sedgwick Ave', cursive !important;
+}
+/* Carousel  */
+.carousel {
+	margin-bottom: 60px;
 }
 
- /* Carousel base class */
-    .carousel {
-      margin-bottom: 60px;
-    }
-
-    .carousel .container {
-      position: relative;
-      z-index: 9;
-    }
-
-    .carousel-control {
-      height: 80px;
-      margin-top: 0;
-      font-size: 120px;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-      background-color: transparent;
-      border: 0;
-      z-index: 10;
-    }
-
-    .carousel .item {
-      height: 500px;
-    }
-    .carousel img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 500px;
-    }
-
-    
-    .carousel-caption .btn {
-      margin-top: 10px;
-    }
-.col-sm img{
-    max-width: 50em;
-    
+.carousel .container {
+	position: relative;
+	z-index: 9;
 }
-.menu{
-    padding: 5em;
-    max-width: auto;
+
+.carousel-control {
+	height: 80px;
+	margin-top: 0;
+	font-size: 120px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+	background-color: transparent;
+	border: 0;
+	z-index: 10;
 }
-.menu h1{
-      text-align: center;
-    font-family: 'Sedgwick Ave', cursive;
+
+
+.carousel img {
+	height: 500px;
+	object-fit: cover;
+	overflow: hidden;
 }
+
+.carousel-caption {
+	background-color: rgba(133, 96, 63, 0.9);
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.carousel-caption h5 {
+
+	font-family: 'Sedgwick Ave', cursive;
+}
+
+.carousel-inner {
+	height: 30em;
+}
+
+/* Table*/
+
+.bg-primary {
+	background-color: #fde8cd !important;
+}
+
+.bg-secondary {
+	color: #fde8cd;
+	background-color: #85603f !important;
+}
+
+.menu {
+	padding: 5em;
+	max-width: auto;
+}
+
+.menu h1 {
+	text-align: center;
+	font-family: 'Sedgwick Ave', cursive;
+}
+
+
+/* featurettes */
+.col-sm h1, h2 {
+	font-family: 'Sedgwick Ave', cursive;
+}
+
+.col-sm {
+	text-align: center;
+	padding: 1em;
+	font-size: .9em;
+}
+
 
 
