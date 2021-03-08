@@ -1,3 +1,74 @@
 body{
 	background-color: pink;
+     padding-bottom: 65px; 
+    font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
 }
+
+.col-sm h1,h2 {
+  
+    font-family: 'Sedgwick Ave', cursive;
+}
+.col-sm{
+    text-align: center;
+    padding: 1em;
+    font-size: .9em;
+}
+
+.carousel-inner{
+    height: 30em;
+}
+
+.carousel-caption{
+    height: 20em;
+}
+
+ /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+.col-sm img{
+    max-width: 50em;
+    
+}
+.menu{
+    padding: 5em;
+    max-width: auto;
+}
+.menu h1{
+      text-align: center;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+
