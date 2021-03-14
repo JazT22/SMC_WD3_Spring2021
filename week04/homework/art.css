@@ -1,0 +1,28 @@
+body {
+	background-color: #fde8cd;
+	padding-bottom:  20px;
+	font-family: 'Raleway', sans-serif;
+
+	color: #433520;
+}
+
+/* Navbar */
+.bg-dark {
+	background-color: #433520 !important;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	background-color: #fde8cd;
+}
+
+.navbar-brand{
+	font-family: 'Sedgwick Ave', cursive !important;
+}
+
+
+
+.acon{
+	padding: 5em;
+	
+}
+
