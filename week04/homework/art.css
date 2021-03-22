@@ -1,0 +1,75 @@
+body {
+	background-color: #eeebdd;
+	padding-top: 4em;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+
+	font-family: 'Lobster', cursive;
+	color: #810000;
+}
+
+
+h2 {
+	color: #810000;
+	font-family: 'Lobster', cursive;
+}
+
+b {
+	color: #810000;
+}
+
+/* Navbar */
+
+.bg-dark {
+	background-color: #1b1717 !important;
+
+}
+
+.navbar-nav > li > .dropdown-menu {
+	background-color: #1b1717;
+}
+
+.navbar-brand {
+	font-family: 'Lobster', cursive;
+}
+
+
+/* article */
+
+.acon {
+
+	padding-top: 5em;
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
+
+.blog-post-meta a {
+	color: #630000;
+	text-decoration: none;
+}
+
+
+/* Cards */
+
+.card-body {
+	background-color: #630000;
+	color: #eeebdd;
+}
+
+.card-title {
+	font-family: 'Lobster', cursive;
+}
+
+.list-group-item {
+	background-color: #1b1717;
+
+}
+
+.list-group-item a {
+	color: #eeebdd;
+	text-decoration: none;
+}
