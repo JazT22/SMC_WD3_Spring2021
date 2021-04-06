@@ -1,0 +1,72 @@
+::-webkit-scrollbar {
+ width: 6px;
+ height: 6px;
+}
+::-webkit-scrollbar-thumb {
+ background: #222831;
+ border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+ background: #222831;
+}
+::-webkit-scrollbar-track{
+ background: #ffd369;
+ border-radius: 8px;
+}
+
+body{
+	background-color: #eeeeee;
+    padding-top: 50px;
+}
+
+.navbar{
+     border-bottom: 5px solid #393e46;
+}
+
+/* Index/home */
+
+.homeh{
+    background-color: #ffd369;
+    color: #222831;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel{
+     border-bottom: 40px solid #393e46;
+}
+
+.homeh2{
+    border-bottom: 5px solid #ffd369;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/* modal */
+
+.modal-content {
+	background-color: #eeeeee !important;
+	border: none !important;
+}
+
+.modal-backdrop {
+	background-color: #222831;
+}
+
+.modal-header {
+	background-color: #ffd369;
+}
+
+.modal-footer button {
+	background-color: #222831 !important;
+    border: none !important;
+}
+
+.btn-primary{
+    background-color: #222831 !important;
+    border: none !important;
+}
+
+
+/* Products */
+
+/* Team */
