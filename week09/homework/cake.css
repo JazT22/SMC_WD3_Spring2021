@@ -1,0 +1,40 @@
+body {
+    background-color: #fcfcfc;
+}
+
+.navbar {
+    background: rgb(255, 106, 192) !important;
+    background: linear-gradient(90deg, rgba(255, 106, 192, 1) 0%, rgba(0, 212, 255, 1) 100%) !important;
+}
+
+.navbar a {
+    transition: background-color 3s;
+}
+
+.navbar a:hover {
+    background-color: pink;
+
+
+}
+
+.card {
+    background-color: hotpink;
+   border: 10px solid;
+  border-image-slice: 1;
+  border-width: 100px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+     transition: border 5s;
+}
+.card:hover{
+    border: 2px solid #00C853;
+}
+
+.card img {
+    opacity: 1;
+    transition: opacity 5s;
+
+}
+
+.card img:hover {
+    opacity: .5;
+}
