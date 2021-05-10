@@ -19,8 +19,8 @@ let score = 0;
 function drawFrame(){
     ctx.clearRect(0, 0, cWidth, cHeight);
 
-    ctx.fillStyle = "teal";
-    ctx.strokeStyle = "darkorange";
+    ctx.fillStyle = "pink";
+    ctx.strokeStyle = "purple";
 
     ctx.beginPath();
     ctx.arc(cPosX, cPosY, cRadius, 0, Math.PI*2);
