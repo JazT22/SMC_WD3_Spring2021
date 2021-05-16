@@ -70,4 +70,11 @@ canvas2.addEventListener("click", function(event){
      
 })
 
+function changePink() {
+  var canvas = document.getElementById("myGame");
+    var ctx = canvas2.getContext('2d');
+     ctx.clearRect(0, 0, cWidth, cHeight);
+  ctx.fillStyle = "red";
+    ctx.strokeStyle = "orange";
+}
 
