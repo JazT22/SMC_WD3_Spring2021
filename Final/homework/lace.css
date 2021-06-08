@@ -1,0 +1,274 @@
+body {
+    padding-top: 56px;
+    background-color: #262626;
+    color: #FBFBFB;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.nav-link:hover{
+    color: yellow !important;
+}
+
+.card{
+    transition: 0.5s;
+background: rgb(31, 35, 38);
+    background: linear-gradient(0deg, rgba(31, 35, 38, 1) 0%, rgba(98, 53, 0, 1) 100%);
+    border: none;
+    transform: perspective(0px) rotateY(15deg);
+    
+}
+
+.card:hover{
+    transform: perspective(1550px) rotateY(15deg);
+    background: rgb(31,35,38);
+background: linear-gradient(0deg, rgba(31,35,38,1) 0%, rgba(98,53,0,1) 46%);
+    color: #fff;
+}
+
+
+.list-group-item{
+    background-color: rgb(31, 35, 38, .0); 
+    color: #FBFBFB;
+}
+
+.jumbotron {
+    background: rgb(31, 35, 38);
+    background: linear-gradient(0deg, rgba(31, 35, 38, 1) 0%, rgba(98, 53, 0, 1) 100%);
+}
+
+.jvid {
+    width: 100%;
+    height: 100%;
+    opacity: 0.33;
+}
+
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-inner {
+    height: 600px;
+    background-size: cover;
+
+}
+.modal-content{
+   background: rgb(31, 35, 38);
+    background: linear-gradient(0deg, rgba(31, 35, 38, 1) 0%, rgba(98, 53, 0, 1) 100%);
+}
+.modal-header{
+    border: 0px;
+}
+.modal-footer{
+    border: 0px;
+}
+.btn-close{
+    background-color:aliceblue;
+}
+
+
+.con {
+    min-height: 10%;
+    min-height: 31vh;
+    
+
+    display: flex;
+    align-items: center;
+    width: 100em;
+    background-color: rgba(26, 27, 28, .25);
+}
+
+.bi-caret-down-fill {
+    font-size: 100px;
+}
+
+.footer {
+    height: 10em;
+}
+
+
+.socials {
+    border-left: 2px solid white;
+}
+
+.headerj {
+    font-size: 10rem;
+}
+
+
+.conrt {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.socialsl {
+    font-size: 27px;
+
+}
+
+
+.jcaption {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    z-index: 1;
+    animation: move 5s;
+}
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.products-container ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity ion-icon{
+     cursor: pointer;
+    color: white;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.product ion-icon {
+    cursor: pointer;
+    color: white;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 75px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+
+@keyframes move {
+   from {top: 20%;opacity: 0;}
+    to {top: 45%;}
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        padding-top: 260px;
+    }
+
+
+    .headerj {
+        font-size: 5rem;
+    }
+
+    .jcaption {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        color: aliceblue;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        z-index: 1;
+    }
+
+    .bi-caret-down-fill {
+        font-size: 50px;
+    }
+
+    .carousel-inner {
+        height: 300px;
+        background-size: cover;
+
+    }
+
+    .socials {
+        border-left: 0px solid white;
+  
+}
+    
+}
+
+
+
